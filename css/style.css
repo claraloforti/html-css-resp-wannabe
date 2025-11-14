@@ -138,16 +138,12 @@ img {
     }
 }
 
-
 /* RESPONSIVE MOBILE */
 @media screen and (max-width:480px) {
 
-    body {
-        background-color: black;
-    }
-
     .container {
-        width: 480px;
+        min-width: 0;
+        max-width: 480px;
     }
 
     .row {
@@ -167,7 +163,8 @@ img {
     }
 
     .why-us {
-        margin-top: 3rem;
+        padding-top: 3rem;
+        background-color: black;
     }
 
     .why-us .col-left {
@@ -179,24 +176,12 @@ img {
         width: 100%;
     }
 
-    header,
-    .lessons,
-    .site-header {
-        background-color: #232946;
-    }
-
-    .site-header {
-        margin-top: 0;
-        padding: 3rem 0;
-    }
-
 }
 
 /* RESPONSIVE DESKTOP */
 
 @media screen and (max-width:1160px) {
     main {
-        max-width: 100%;
     }
 
 }
